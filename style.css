@@ -78,3 +78,26 @@ header{
     color: white;
     font-weight: 300;
 }
+div
+{
+display: none;
+}
+@media screen and (max-width:1850px) {
+    .all{
+        display:none;
+    }
+    div{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column
+    }
+    div img{
+        height: 300px;
+        width: auto;
+    }
+    body{
+        background-color: white;
+    }
+}
